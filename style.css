@@ -1,15 +1,82 @@
 body{
     width: 99%;
-    background-color: rgb(180, 176, 176);
+    background: white;
+}
+.container{
+    display: flex;
+    gap: 50%;
+
 }
 .header{
     display: flex;
-    justify-content: center;
-    
+    border-radius: 30px;
+    width: 100%;
+    height: auto;
+}
+.header h1{
+    background-color: blue;
+    width: 80%;
+    float: left;
+    box-shadow: 3px 4px 5px black;
+    border-radius: 300px 40px 600px 90px;
+}
+.header h1 a{
+    text-decoration: none;
+    font-size: 2rem;
+    color: white;
+
 }
 .navbar{
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     padding: 10px;
-    gap: 5px;
+    gap: 20px;
+   
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    padding: 10px;
+}
+.navbar a:hover{
+    transition: 1s;
+    transform: translateY(-10px);
+    border-bottom: 0.5px solid green;
+    
+}
+.container-1{
+    display: flex;
+    align-items: center;
+}
+.first{
+    background-color: aqua;
+    color: black;
+    width: 90%;
+    padding: 10px;
+    margin: 10px;
+    border: 0.5px solid rgb(206, 202, 202);
+}
+.second{
+    background: rgb(197, 174, 174);
+    color: black;
+    width: 90%;
+    padding: 10px;
+    margin: 10px;
+    border: 0.5px solid rgb(206, 202, 202);
+}
+.third{
+    background: rgb(218, 62, 5);
+    color: black;
+    width: 90%;
+    padding: 10px;
+    margin: 10px;
+    border: 0.5px solid rgb(206, 202, 202);
+}
+.services h1{
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    color: black;
+    font-weight: bold;
 }
