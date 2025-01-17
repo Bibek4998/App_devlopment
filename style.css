@@ -1,8 +1,15 @@
 body{
-    background-color: lightblue;
+    width: 99%;
+    background-color: rgb(180, 176, 176);
 }
-h1{
-    font-size: 50px;
-    color: white;
-    background: black;
+.header{
+    display: flex;
+    justify-content: center;
+    
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    gap: 5px;
 }
